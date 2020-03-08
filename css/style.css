@@ -5,11 +5,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-      background: ##1B4175;
+      background: #2B5B9C;
 }
 
 .logo {
 max-height: 80px;
+padding-bottom: 1.25em;    
+padding-top: 1.25em;    
+
 }
     .logo a {
       color: rgb(28, 24, 22);
