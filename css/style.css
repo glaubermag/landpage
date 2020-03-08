@@ -65,6 +65,12 @@
 }
 
 
+header {
+    margin-top: 1.50em;
+align-self: center;
+    
+}
+
 /* ****** ****** */
 @media all and (max-width: 600px) {
 
