@@ -3,7 +3,7 @@
     margin: 0;
 }
 
-.flex-container {
+.menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,7 +18,7 @@
 }
 
 .navbar a {
-    color: rgb(28, 24, 22);
+    color: #E3387D;
 }
 
 .navbar,
@@ -67,8 +67,9 @@
 
 header {
     margin-top: 1.50em;
-align-self: center;
-    
+    display: flex;
+justify-content: center; /* align horizontal */
+align-items: center; /* align vertical */
 }
 
 /* ****** ****** */
@@ -87,8 +88,7 @@ align-self: center;
     .navigation a {
         text-align: center;
         padding: 10px;
-        border-top: 1px solid rgba(255, 255, 255, 0.3);
-        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
     }
 
     .navigation li:last-of-type a {

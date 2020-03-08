@@ -1,33 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt_br">
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-   <title>Mercado Food Service</title>
-   <link rel="stylesheet" href="../css/style.css">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
-   <link href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mercado Food Service</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
 </head>
-<body>
- <div class="flex-container">
-    
-<a href="#"><img src="img/logo.png" class="logo"></a>
-  <ul class="navigation">
-    <li><a href="#">Link</a></li>
-    <li><a href="#">Link</a></li>
-    <li><a href="#">Link</a></li>
-    <li><a href="#">Link</a></li>
-    <li><a href="#">Link</a></li>
-  </ul>
-</div>
-    
-    
-<header>
-<img src="img/banner.jpg" class="md auto"> 
 
-    
-</header>
-     
-</body>
-</html>
+<body>
+    <div class="menu">
+        <a href="#"><img src="img/logo.png" class="logo"></a>
+        <ul class="navigation">
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+        </ul>
+    </div>
+    <header>
+        <img src="img/banner.jpg">
+    </header>
+
+    <article>
+        <p> Lorem Ipsum</p>
+    </article>
+
+    <aside>
+
+        <h1>Exemplo de formulário para o Show me the Leads</h1>
+        <form method="POST" action="https://smtl.gama.academy/leads/4a6b1330-5ffc-11ea-92b8-cb0262e26cca">
+            <label for="name">Nome:</label><br>
+            <input name="name" type="text" pattern="^\D{2,}\s[\D\s]{2,}$" title="Digite seu nome completo" required /><br>
+            <label for="email">Email:</label><br>
+            <input name="email" type="email" title="Digite um email válido" required />
+            <input name="redirectTo" type="hidden" value="sucesso.html" />
+            <input name="debugMode" type="hidden" value="true" />
+            <br>
+            <input type="submit" />
+        </form>
+
+    </aside>
+</body></html>
