@@ -27,7 +27,6 @@ align-items: center; /* align vertical */
 
 .header {
     margin-top: 1.25em;
-    margin-bottom 1.25em; 
     margin-left: 1.25em;
     margin-right: 1.25em;
          display: flex;
@@ -49,9 +48,6 @@ color: #BD2663;
 }
 
 p {
-    /* Independentemente se você trabalha com vendas B2B ou B2C, você sempre deve estar pensando em ser mais produtivo e como fazer para melhorar as vendas. Independentemente se você trabalha com vendas B2B ou B2C. */
-
-
 font-family: IBM Plex Sans;
 font-style: normal;
 font-weight: normal;
@@ -59,8 +55,6 @@ font-size: 28px;
 line-height: 30px;
 /* or 107% */   
 color: #191919;
-
-
 }
 
 .input {
@@ -82,10 +76,29 @@ font-size: 15px;
 color: #EFF8FF;
 }
 
-
-.mail {
+form {
+    
+max-width: 400px;
 background-color: #2B5B9C;
+padding: 20px;
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 30px;
+/* or 107% */
+color: #FFFFFF;
 
+    
+}
+
+
+.flex-grid {
+  display: flex;
+margin-top: 50px;
+}
+.col {
+  flex: 1;
 }
 
 /* *********** media queries *********** */
