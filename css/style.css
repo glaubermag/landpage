@@ -7,45 +7,22 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #2B5B9C;
 }
 
 .logo {
-    max-height: 80px;
+    max-height: 100px;
     padding-bottom: 1.2em;
     padding-top: 1.2em;
 
 }
 
-.navbar a {
-    color: #E3387D;
-}
-
-.navbar,
-.navigation {
-    list-style: none;
-    text-transform: uppercase;
-}
-
-.navbar a,
-.navigation a {
-    text-decoration: none;
-    letter-spacing: .45rem;
-}
-
-
-.navigation {
+nav {
+    
     display: flex;
-}
+justify-content: center; /* align horizontal */
+align-items: center; /* align vertical */
+        background: #F5F5F5;
 
-.navigation a {
-    display: block;
-    padding: 1em;
-    color: white;
-}
-
-.navigation a:hover {
-    background: #00ace6;
 }
 
 /* *********** media queries *********** */
@@ -66,8 +43,7 @@
 
 
 header {
-    margin-top: 1.50em;
-    display: flex;
+display: flex;
 justify-content: center; /* align horizontal */
 align-items: center; /* align vertical */
 }

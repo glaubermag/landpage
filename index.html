@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt_br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,37 +11,40 @@
 </head>
 
 <body>
-    <div class="menu">
-        <a href="#"><img src="img/logo.png" class="logo"></a>
-        <ul class="navigation">
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
-        </ul>
-    </div>
-    <header>
+
+    <nav>
+        <div class="menu">
+            <a href="#"><img src="img/logo.png" class="logo"></a>
+        </div>
+    </nav>
+
+
+    <section>
         <img src="img/banner.jpg">
-    </header>
 
-    <article>
-        <p> Lorem Ipsum</p>
-    </article>
+    </section>
 
-    <aside>
+    <div>
+        <article>
+            <p> Lorem Ipsum</p>
+        </article>
 
-        <h1>Exemplo de formulário para o Show me the Leads</h1>
-        <form method="POST" action="https://smtl.gama.academy/leads/4a6b1330-5ffc-11ea-92b8-cb0262e26cca">
-            <label for="name">Nome:</label><br>
-            <input name="name" type="text" pattern="^\D{2,}\s[\D\s]{2,}$" title="Digite seu nome completo" required /><br>
-            <label for="email">Email:</label><br>
-            <input name="email" type="email" title="Digite um email válido" required />
-            <input name="redirectTo" type="hidden" value="sucesso.html" />
-            <input name="debugMode" type="hidden" value="true" />
-            <br>
-            <input type="submit" />
-        </form>
+        <aside>
 
-    </aside>
-</body></html>
+            <h1>Receba a nossa planilha GRÁTIS!</h1>
+            <form method="POST" action="https://smtl.gama.academy/leads/4a6b1330-5ffc-11ea-92b8-cb0262e26cca">
+                <label for="name">Nome:</label><br>
+                <input name="name" type="text" pattern="^\D{2,}\s[\D\s]{2,}$" title="Digite seu nome completo" required /><br>
+                <label for="email">Email:</label><br>
+                <input name="email" type="email" title="Digite um email válido" required />
+                <input name="redirectTo" type="hidden" value="sucesso.html" />
+                <input name="debugMode" type="hidden" value="true" />
+                <br>
+                <input type="submit" />
+            </form>
+
+        </aside>
+    </div>
+</body>
+
+</html>
