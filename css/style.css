@@ -15,14 +15,20 @@ header {
 }
 
 h4 {
-    /* H4 Bold */
-    font-family: IBM Plex Sans;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 34px;
-    line-height: 50px;
-    /* or 132% */
-    color: #BD2663;
+
+
+/* H4 Bold */
+
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 38px;
+line-height: 50px;
+/* or 132% */
+
+
+color: #BD2663;
+
 }
 
 p {
@@ -67,4 +73,21 @@ form {
     line-height: 30px;
     /* or 107% */
     color: #FFFFFF;
+}
+
+
+footer {
+    font-family: IBM Plex Sans;
+    margin-top: 20px;
+    background: #F5F5F5;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.fa-facebook-square {
+    
+    color: #3B5998;
+    font-size: 32px;
+    margin-right: 20px;
 }
