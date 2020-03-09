@@ -1,42 +1,18 @@
-* {
-    padding: 0;
-    margin: 0;
-}
-
-
-
-.menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo {
-    max-height: 100px;
-    padding-bottom: 1.2em;
+.logotop {
+    max-height: 135px;
+    padding-bottom: 1.25em;
     padding-top: 1.2em;
+
 }
 
 nav {
-
-    display: flex;
-    justify-content: center;
-    /* align horizontal */
-    align-items: center;
-    /* align vertical */
     background: #F5F5F5;
 
 }
 
-.header {
-    margin-top: 1.25em;
-    margin-left: 1.25em;
-    margin-right: 1.25em;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 5px;
-    justify-content: center;
-    width: 100%; }
+header {
+    margin: 1.25em;
+}
 
 h4 {
     /* H4 Bold */
@@ -88,82 +64,9 @@ form {
     font-family: IBM Plex Sans;
     font-style: normal;
     font-weight: normal;
-    font-size: 12px;
+    font-size: 15px;
     line-height: 30px;
     /* or 107% */
     color: #FFFFFF;
     margin-left: 50px;
-
-
-}
-
-
-.flex-grid {
-    display: flex;
-    margin-top: 50px;
-    margin-left: 50px;
-}
-
-.col {
-    flex: 7;
-}
-
-footer {
-
-    background-color: #F5F5F5;
-    color: black;
-    font-size: 20px;
-    font-family: IBM Plex Sans;
-    font-style: normal;
-    font-weight: normal;
-    text-align: center;
-    padding: 20px;  
-    margin-top: 40px;
-
-}
-
-.icon {
-    color: #3B5998;
-    font-size: 32px;
-    margin-right: 30px;
-}
-
-.destaque { 
-/* H4 Bold */
-font-family: IBM Plex Sans;
-font-style: normal;
-font-weight: 600;
-font-size: 38px;
-line-height: 50px;
-/* or 132% */
-color: #1B4175;
-    margin-top: 20px;
-margin-left: 50px;
-background-color: #F5F5F5;
-
-}
-
-/* *********** media queries *********** */
-@media all and (max-width: 990px) {
-    .flex-container {
-        flex-direction: column;
-    }
-
-    .navbar {
-        margin: 0;
-    }
-
-}
-
-
-
-/* ****** ****** */
-@media all and (max-width: 600px) {
-
-    .navbar {
-        margin: .25em 0;
-        align-self: left;
-        /* align the navbar to the left side of 'flex-container' */
-    }
-
 }
