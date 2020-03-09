@@ -17,17 +17,15 @@ header {
 h4 {
 
 
-/* H4 Bold */
+    /* H4 Bold */
 
-font-family: IBM Plex Sans;
-font-style: normal;
-font-weight: 600;
-font-size: 38px;
-line-height: 50px;
-/* or 132% */
-
-
-color: #BD2663;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 50px;
+    text-align: center;
+    color: #BD2663;
 
 }
 
@@ -41,12 +39,16 @@ p {
     /* or 107% */
     color: #191919;
     margin-top: 20px;
+    margin: 20px;
+    text-align: justify;
 }
 
 .input {
     border-radius: 15px;
     height: 30px;
- 
+    background-color: #EFF8FF;
+    border: 1px white;
+
 }
 
 .button {
@@ -62,6 +64,14 @@ p {
     color: #EFF8FF;
     border: none;
     padding: 0px 20px 0px 20px
+}
+
+.tituloazul {
+
+    color: #547EB7;
+    font-stretch: extra-condensed;
+    font-weight: bold;
+    background-color: #F5F5F5;
 }
 
 form {
@@ -88,7 +98,7 @@ footer {
 }
 
 .fa-facebook-square {
-    
+
     color: #3B5998;
     font-size: 32px;
     margin-right: 20px;
