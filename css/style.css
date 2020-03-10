@@ -29,7 +29,6 @@ h4 {
     font-weight: 600;
     font-size: 38px;
     line-height: 50px;
-    margin-left: 20px;
     color: #BD2663;
 
 }
@@ -111,4 +110,19 @@ footer {
     color: #3B5998;
     font-size: 32px;
     margin-right: 20px;
+}
+
+span {
+
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+
+.depo-img {
+    
+    max-height: 200px;
+    margin-top: 30px;
+    
 }
