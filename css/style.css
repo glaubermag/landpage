@@ -5,9 +5,10 @@
 
 }
 
-html, body {
-  max-width: 100%;
-  overflow-x: hidden;
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 nav {
@@ -112,17 +113,25 @@ footer {
     margin-right: 20px;
 }
 
+.fa-envelope {
+
+    color: #E3387D;
+    font-size: 32px;
+    margin-right: 20px;
+}
+
+
 span {
 
     text-align: center;
     font-size: 15px;
     font-weight: bold;
-    
+
 }
 
 .depo-img {
-    
+
     max-height: 200px;
     margin-top: 30px;
-    
+
 }
