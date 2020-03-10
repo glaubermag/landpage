@@ -71,7 +71,6 @@ p {
     color: #EFF8FF;
     border: none;
     padding: 0px 20px 0px 20px
-            
 }
 
 .tituloazul {
@@ -121,6 +120,16 @@ footer {
     margin-right: 20px;
 }
 
+.fa-instagram {
+
+    font-size: 32px;
+    margin-right: 20px;
+
+    color: white;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+
+
+}
 
 span {
 
