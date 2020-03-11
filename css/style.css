@@ -93,7 +93,7 @@ form {
     line-height: 30px;
     /* or 107% */
     color: #FFFFFF;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 
 
@@ -104,6 +104,14 @@ footer {
     text-align: center;
     padding: 20px;
 
+}
+
+.pesquisafooter {
+    font-family: IBM Plex Sans;
+    background: #F5F5F5;
+    text-align: center;
+    padding: 20px;
+    margin-top: 0px;
 }
 
 .fa-facebook-square {
@@ -141,8 +149,7 @@ footer {
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
-
-    text-align: justify;
+    text-align: center;
 }
 
 span {
