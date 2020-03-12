@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="pt-br">
-  <head>
+
+<head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160178132-1"></script>
     <script>
@@ -12,6 +13,7 @@
         gtag('js', new Date());
 
         gtag('config', 'UA-160178132-1');
+
     </script>
 
     <!-- Required meta tags -->
@@ -55,19 +57,26 @@
         <div class="container-fluid">
             <!-- Navigation -->
             <nav>
-
-                <img src="img/logo.png" class="logotop mx-auto d-block img-fluid">
+                <picture>
+                    <source srcset="/img/webp/logo.webp" type="image/webp">
+                    <source srcset="img/logo.png" type="image/jpeg">
+                    <img src="img/logo.png" class="logotop mx-auto d-block img-fluid" alt="Um logo com as cores azul e rosa com o ícone de um carrinho de compras e o escrito Mercado Food Service">
+                </picture>
             </nav>
-
             <header class="d-none d-md-block">
-
-                <img src="img/webp/bannersucesso.webp" class="mx-auto d-block img-fluid" alt="">
-
+                <picture>
+                    <source srcset="/img/webp/bannersucesso.webp" type="image/webp">
+                    <source srcset="img/bannersucesso.jpg" type="image/jpeg">
+                    <img src="img/bannersucesso.jpg" class="logotop mx-auto d-block img-fluid" alt="">
+                </picture>
             </header>
 
-
-            <header class="d-md-none"> <img src="img/webp/bannermobilesucesso.webp" class="mx-auto d-block img-fluid" alt="">
-            </header>
+            <header class="d-md-none"> 
+                <picture>
+                    <source srcset="/img/webp/bannermobilesucesso.webp" type="image/webp">
+                    <source srcset="img/bannermobilesucesso.jpg" type="image/jpeg">
+                    <img src="img/bannermobilesucesso.jpg" class="logotop mx-auto d-block img-fluid" alt="">
+                </picture>            </header>
         </div>
     </div>
 
@@ -116,4 +125,6 @@
     <!-- Optional JavaScript -->
     <script src="https://kit.fontawesome.com/28faa185eb.js" crossorigin="anonymous"></script>
 
-</body></html>
+</body>
+
+</html>
