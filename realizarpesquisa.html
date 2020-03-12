@@ -63,8 +63,11 @@
 
     <!-- Navigation -->
     <nav>
-
-        <img src="img/webp/logo.webp" class="logotop mx-auto d-block img-fluid" alt="Um logo com as cores azul e rosa com o ícone de um carrinho de compras e o escrito Mercado Food Service">
+        <picture>
+            <source srcset="/img/webp/logo.webp" type="image/webp">
+            <source srcset="img/logo.png" type="image/jpeg">
+            <img src="img/logo.png" class="logotop mx-auto d-block img-fluid" alt="Um logo com as cores azul e rosa com o ícone de um carrinho de compras e o escrito Mercado Food Service">
+        </picture>
     </nav>
 
 
@@ -104,6 +107,7 @@
         gtag('js', new Date());
 
         gtag('config', 'UA-160208265-1');
+
     </script>
 
 
@@ -141,6 +145,7 @@
         fbq('init', '3306037926077186');
 
         fbq('track', 'PageView');
+
     </script>
 
     <noscript>
@@ -155,4 +160,6 @@
 
     <script src="lazysizes.min.js" async></script>
 
-</body></html>
+</body>
+
+</html>
