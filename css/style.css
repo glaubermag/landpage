@@ -51,12 +51,19 @@ p {
 
 .input {
     border-radius: 15px;
-    height: 30px;
+    height: 40px;
     background-color: #EFF8FF;
-    border: 1px white;
+    border: 2px white;
     text-align: center;
 
+
+
 }
+
+label {
+    
+    vertical-align:middle;
+    text-align:center;  }
 
 .button {
 
@@ -94,6 +101,7 @@ form {
     /* or 107% */
     color: #FFFFFF;
     margin-bottom: 0px;
+
 }
 
 

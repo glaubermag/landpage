@@ -56,8 +56,8 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <script src="/js/lazysizes.min.js" async></script>
-  <!-- Images End -->
+    <script src="/js/lazysizes.min.js" async></script>
+    <!-- Images End -->
 </head>
 
 <body>
@@ -104,12 +104,15 @@
             </p>
         </div>
         <div id="cadastro" class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+
+
             <form method="POST" action="https://smtl.gama.academy/leads/4a6b1330-5ffc-11ea-92b8-cb0262e26cca" data-netlify="true">
                 <h5 class="text-center"> VOCÊ QUER ORGANIZAR SUA EMPRESA E TER TRANQUILIDADE FINANCEIRA? </h5>
-                <input name="name" class="input mx-auto d-block" placeholder="Seu nome completo" type="text" pattern="^\D{2,}\s[\D\s]{2,}$" title="Digite seu nome completo" required /><br>
-                <input name="email" class="input mx-auto d-block" type="email" placeholder="Digite um email válido" required />
+               <center> <label for="name">Nome:</label></center>
+                <input name="name" id="name" class="input mx-auto d-block" placeholder="Seu nome completo" type="text" pattern="^\D{2,}\s[\D\s]{2,}$" title="Digite seu nome completo" required />
+               <center> <label for="email">Email:</label> </center>
+                <input name="email" id="email" class="input mx-auto d-block" type="email" placeholder="Digite um email válido" required />
                 <input name="redirectTo" type="hidden" value="https://www.mercadofoodservice.com/sucesso.html" />
-                <br>
                 <p class="spam"> Fique tranquilo(a), NÃO enviamos SPAM =) </p>
                 <button type="submit" class="button mx-auto d-block" name="Quero minha Planilha!">QUERO MINHA PLANILHA!</button>
             </form>
@@ -180,7 +183,6 @@
         gtag('js', new Date());
 
         gtag('config', 'UA-160208265-1');
-
     </script>
 
     <!-- Hotjar Tracking Code for https://www.mercadofoodservice.com/ -->
@@ -199,7 +201,6 @@
             r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
             a.appendChild(r);
         })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
-
     </script>
 
 
@@ -237,7 +238,6 @@
         fbq('init', '3306037926077186');
 
         fbq('track', 'PageView');
-
     </script>
 
     <noscript>
@@ -250,6 +250,4 @@
 
     <!-- End Facebook Pixel Code -->
 
-</body>
-
-</html>
+</body></html>
